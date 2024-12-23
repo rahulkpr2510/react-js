@@ -10,7 +10,7 @@ function App() {
     }
   }
 
-  const decreseValue = ( ) => {
+  const decreaseValue = ( ) => {
     if(counter > 0){
       setCounter(counter - 1)
     }
@@ -23,7 +23,7 @@ function App() {
       <p>Counter value: {counter}</p>
       <button onClick={increaseValue}>Increment</button>
       <br></br>
-      <button onClick={decreseValue}>Decrement</button>
+      <button onClick={decreaseValue}>Decrement</button>
     </>
   )
 }
